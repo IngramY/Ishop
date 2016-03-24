@@ -5,7 +5,8 @@ import android.os.CountDownTimer;
 import android.util.AttributeSet;
 import android.widget.Button;
 
-import com.zbzhixue.app.R;
+import shopsys.ingramy.com.ishop.R;
+
 
 /**
  * @ClassName: ValidCodeButton.java

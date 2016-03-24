@@ -16,7 +16,8 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-import com.zbzhixue.app.R;
+import shopsys.ingramy.com.ishop.R;
+
 
 public class CircleImageView extends ImageView {
 

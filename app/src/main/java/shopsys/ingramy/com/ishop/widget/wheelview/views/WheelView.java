@@ -32,11 +32,11 @@ import android.view.ViewGroup.LayoutParams;
 import android.view.animation.Interpolator;
 import android.widget.LinearLayout;
 
-import com.zbzhixue.app.R;
-import com.zbzhixue.app.widget.wheelview.adapters.WheelViewAdapter;
-
 import java.util.LinkedList;
 import java.util.List;
+
+import shopsys.ingramy.com.ishop.R;
+import shopsys.ingramy.com.ishop.widget.wheelview.adapters.WheelViewAdapter;
 
 /**
  * Numeric wheel view.

@@ -3,7 +3,8 @@ package shopsys.ingramy.com.ishop.util;
 import android.graphics.Bitmap;
 
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
-import com.zbzhixue.app.R;
+
+import shopsys.ingramy.com.ishop.R;
 
 public class ImageLoaderOption {
     private static DisplayImageOptions options;

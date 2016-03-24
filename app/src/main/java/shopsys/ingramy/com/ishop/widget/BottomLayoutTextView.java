@@ -5,7 +5,8 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.zbzhixue.app.callback.OnCheckChangedListener;
+import shopsys.ingramy.com.ishop.callback.OnCheckChangedListener;
+
 
 public class BottomLayoutTextView extends TextView {
     private OnCheckChangedListener mListener;

@@ -9,4 +9,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- empty loading style -->
+    <style name="emptyProgressBarStyleLarge">
+        <item name="android:indeterminateDrawable">@drawable/loading_rotate_comman</item>
+        <item name="android:minWidth">40dip</item>
+        <item name="android:maxWidth">40dip</item>
+        <item name="android:minHeight">40dip</item>
+        <item name="android:maxHeight">40dip</item>
+    </style>
+
 </resources>

@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Ishop</string>
 
     <!-- TODO: Remove or change this placeholder text -->
@@ -13,5 +13,16 @@
     <string name="footer_hint_load_ready">松开载入更多</string>
     <string name="no_data">没有数据</string>
     <string name="emptyview_loading">加载中&#8230;</string>
+
+    <!-- 按钮 -->
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="next">下一步</string>
+    <string name="get_verify_code">获取验证码</string>
+    <string name="get_code_again"><xliff:g>%s</xliff:g>重新获取</string>
+    <string name="submit">提交</string>
+
+    <!-- 测试数据-->
+    <string name="dummy_text1">和宝钢 hasf仿分恢复萨洛克积分卡号是开发hrubbakfjbavbfkbjbajbsb离开不离开房间爱不可方理科本科及部分公共发货的顶顶顶顶顶顶顶顶顶顶大大大集合的顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶大大大方法反反复复反复反复反复反复反复反复反复反复反复反复反复反复嘎嘎嘎灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌灌</string>
 
 </resources>

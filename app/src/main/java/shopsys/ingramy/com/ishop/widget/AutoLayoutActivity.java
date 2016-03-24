@@ -4,10 +4,11 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.zbzhixue.app.base.BaseActivity;
 import com.zhy.autolayout.AutoFrameLayout;
 import com.zhy.autolayout.AutoLinearLayout;
 import com.zhy.autolayout.AutoRelativeLayout;
+
+import shopsys.ingramy.com.ishop.base.BaseActivity;
 
 /***
  * Created by jery on 2016/1/15.

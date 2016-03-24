@@ -23,7 +23,8 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.zbzhixue.app.R;
+import shopsys.ingramy.com.ishop.R;
+
 
 public class ActionSheet extends FrameLayout implements OnClickListener{
     protected WindowManager windowManager;

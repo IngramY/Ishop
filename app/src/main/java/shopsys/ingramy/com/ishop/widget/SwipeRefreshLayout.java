@@ -31,7 +31,8 @@ import android.widget.AbsListView;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 
-import com.zbzhixue.app.util.LogX;
+import shopsys.ingramy.com.ishop.util.LogX;
+
 
 //import android.support.v7.widget.LinearLayoutManager;
 //import android.support.v7.widget.RecyclerView;
