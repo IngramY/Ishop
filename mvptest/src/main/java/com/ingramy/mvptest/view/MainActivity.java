@@ -1,6 +1,7 @@
 package com.ingramy.mvptest.view;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -23,6 +24,7 @@ public class MainActivity extends Activity implements View.OnClickListener, IUse
         setContentView(R.layout.activity_main);
         findViewById(R.id.save).setOnClickListener(this);
         findViewById(R.id.load).setOnClickListener(this);
+        findViewById(R.id.show).setOnClickListener(this);
         id = (EditText) findViewById(R.id.id);
         first = (EditText) findViewById(R.id.first);
         last = (EditText) findViewById(R.id.last);
@@ -97,6 +99,11 @@ public class MainActivity extends Activity implements View.OnClickListener, IUse
                 }catch (Exception e){
                     Toast.makeText(MainActivity.this, "输入格式不对！！", Toast.LENGTH_LONG);
                 }
+                break;
+            case R.id.show:
+                startActivity(new Intent(MainActivity.this, LoginActivity.class));
+
+
                 break;
         }
     }
