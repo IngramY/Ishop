@@ -2,11 +2,18 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme"
-           parent="Theme.AppCompat.Light.DarkActionBar">
+           parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 自适应status bar -->
+    <style name="activity_common">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fitsSystemWindows">true</item>
     </style>
 
     <!-- empty loading style -->
@@ -16,6 +23,19 @@
         <item name="android:maxWidth">40dip</item>
         <item name="android:minHeight">40dip</item>
         <item name="android:maxHeight">40dip</item>
+    </style>
+
+    <!-- bottom layout -->
+    <style name="bottom_layout_tv_common">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:paddingBottom">2px</item>
+        <item name="android:paddingTop">20px</item>
+        <item name="android:drawablePadding">2px</item>
+        <item name="android:textColor">@drawable/bottom_text_selector</item>
+        <item name="android:gravity">center_horizontal|bottom</item>
     </style>
 
 </resources>

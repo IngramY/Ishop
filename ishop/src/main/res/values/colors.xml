@@ -11,8 +11,8 @@
     <color name="bg_light_pink">#FFF4F2</color>
 
     <!-- 主题色 包括top_bar等 -->
-    <color name="theme_color_default">#3F85B6</color>
-    <color name="theme_color_default_pressed">#2c6f9e</color>
+    <color name="theme_color_default">#4a334a</color>
+    <color name="theme_color_default_pressed">#7a434a</color>
     <color name="theme_color_red">#FF6969</color>
     <color name="theme_color_red_pressed">#df4a4a</color>
 

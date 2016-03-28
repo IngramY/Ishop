@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <shopsys.ingramy.com.ishop.widget.BottomLayoutTextView
+        android:id="@+id/tv_bottom_1"
+        style="@style/bottom_layout_tv_common"
+        android:drawableTop="@drawable/tab_home"
+        android:text="@string/tab_home" />
+
+    <shopsys.ingramy.com.ishop.widget.BottomLayoutTextView
+        android:id="@+id/tv_bottom_2"
+        style="@style/bottom_layout_tv_common"
+        android:drawableTop="@drawable/tab_car"
+        android:text="@string/tab_car"/>
+
+    <shopsys.ingramy.com.ishop.widget.BottomLayoutTextView
+        android:id="@+id/tv_bottom_3"
+        style="@style/bottom_layout_tv_common"
+        android:drawableTop="@drawable/tab_personal"
+        android:text="@string/tab_personal"/>
+
+</LinearLayout>
