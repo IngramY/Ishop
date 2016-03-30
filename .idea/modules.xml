@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Ishop.iml" filepath="$PROJECT_DIR$/Ishop.iml" />
       <module fileurl="file://$PROJECT_DIR$/ishop/ishop.iml" filepath="$PROJECT_DIR$/ishop/ishop.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvptest/mvptest.iml" filepath="$PROJECT_DIR$/mvptest/mvptest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvptest/mvptest.iml" filepath="$PROJECT_DIR$/mvptest/mvptest.iml" />
     </modules>
   </component>
 </project>
